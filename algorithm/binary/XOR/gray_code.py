@@ -27,13 +27,21 @@
 from typing import List
 
 
-def gray_code(n: int) -> List[int]:
-    if n == 0:
-        return [0]
-    result = gray_code(n - 1)
-    return result + [1 << (n - 1) | x for x in result[::-1]]
+# 找规律即可
+def gray_code_xor(n: int) -> List[int]:
+    result = []
+    for i in range(2 ** n):
+        result.append((i >> 1) ^ i)
+    return result
+
+
+# 格雷码公式
+def gray_code_02(n: int) -> List[int]:
+    return [item ^ item >> 1 for item in range(1 << n)]
 
 
 if __name__ == '__main__':
-    print(gray_code(2))
-    print(gray_code(0))
+    print(gray_code_xor(2))
+    print(gray_code_xor(0))
+    print(gray_code_02(2))
+    print(gray_code_02(0))
