@@ -1,8 +1,8 @@
 # computational geometry (计算几何学习摘要)
 
-	计算几何基础
-	分类讨论
-	凸包
-	覆盖问题
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[计算几何基础](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/computational_geometry/base/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[分类讨论](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/computational_geometry/application/*.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[凸包](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/computational_geometry/application/*.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[覆盖问题](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/computational_geometry/application/*.py)<br/></font>
 
 # Will Update Continue......

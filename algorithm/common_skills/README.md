@@ -1,4 +1,4 @@
-# common skills (常用技巧)
+# 常用技巧整理
 
 <font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[博弈论](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/common_skills/skills/can_win_nim.py)<br/></font>
 <font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[分块](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/common_skills/skills/max_sliding_window.py)<br/></font>
