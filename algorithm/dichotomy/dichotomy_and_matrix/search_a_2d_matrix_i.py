@@ -1,5 +1,5 @@
 """
-    编写一个高效的算法来判断矩阵中，是否存在一个目标值。该矩阵具有如下特性：
+    判断矩阵matrix中，是否存在一个目标值target， 该矩阵具有如下特性：
         1、每行中的整数从左到右按升序排列
         2、每行的第一个整数大于前一行的最后一个整数
     example 1:
@@ -21,7 +21,6 @@ def search_a_2d_matrix_01(matrix: List[List[int]], target: int) -> bool:
         if target <= matrix[i][-1]:
             index = i
             break
-
     if index == -1:
         return False
     else:
@@ -37,8 +36,10 @@ def search_a_2d_matrix_01(matrix: List[List[int]], target: int) -> bool:
         return False
 
 
+# 全局二分，直接二分二维数组
 def search_a_2d_matrix_02(matrix: List[List[int]], target: int) -> bool:
-    if len(matrix) == 0 or len(matrix[0]) == 0: return False
+    if len(matrix) == 0 or len(matrix[0]) == 0:
+        return False
     n, m = len(matrix), len(matrix[0])
     left, right = 0, m * n - 1
     while left <= right:
