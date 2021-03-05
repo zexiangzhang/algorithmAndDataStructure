@@ -24,9 +24,10 @@
 	}
 
 ###  相关问题
-     棋盘分割
-     汉诺塔
-     连连看
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[字符串解码](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/decode_string.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[数字三角形](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/digital_triangle.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[汉诺塔](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/hanoi.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[相同的树](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/same_tree.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[......](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/)<br/></font>
 
-
-# Will Update Continue......
+# Update Continue......
