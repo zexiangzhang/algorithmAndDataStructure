@@ -16,18 +16,18 @@
 
 ### 简单实例
 	阶乘
-	function factorial(n) {
-		if (n == 1) {
+	def factorial(n) {
+		if (n==1) {
 			return 1;
 		}
 		return n * factorial(n-1)
 	}
 
 ###  相关问题
-<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[字符串解码](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/decode_string.py)<br/></font>
-<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[数字三角形](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/digital_triangle.py)<br/></font>
-<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[汉诺塔](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/hanoi.py)<br/></font>
-<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[相同的树](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/same_tree.py)<br/></font>
-<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[......](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[字符串解码](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/codes/decode_string.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[数字三角形](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/codes/digital_triangle.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[汉诺塔](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/codes/hanoi.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[相同的树](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/codes/same_tree.py)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[......](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/recursion/codes/)<br/></font>
 
 # Update Continue......
