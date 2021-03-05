@@ -11,13 +11,7 @@
      输入: p = [1,2,1], q = [1,1,2]
      输出: false
 """
-
-
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from algorithm.recursion.TreeNode import TreeNode
 
 
 def same_tree(p: TreeNode, q: TreeNode) -> bool:

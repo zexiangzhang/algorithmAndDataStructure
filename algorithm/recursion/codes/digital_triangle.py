@@ -17,16 +17,16 @@ def digital_triangle_recursion(nums: List[List[int]], x: int, y: int) -> int:
 
 # 动态规划
 # 首先创建一个辅助数组，将原三角形的最后一行数字复制到辅助数组的最后一行
-# 然后辅助数组从倒数第二行开始，就是将原三角形的倒数第二行原值（li[i][j]）加上辅助数组最后一行的较大值max(rec[i+1][j],rec[i+1][j+1])
+# 然后辅助数组从倒数第二行开始，就是将原三角形的倒数第二行原值（nums[i][j]）加上辅助数组最后一行的较大值max(result[i+1][j],result[i+1][j+1])
 # 最后辅助数组的第一个元素就是目标值
 def digital_triangle_dp(nums: List[List[int]]) -> int:
-    rec = [[0] * len(nums) for _ in range(len(nums))]
+    result = [[0] * len(nums) for _ in range(len(nums))]
     for j in range(len(nums)):
-        rec[len(nums) - 1][j] = nums[len(nums) - 1][j]
+        result[len(nums) - 1][j] = nums[len(nums) - 1][j]
     for i in range(len(nums) - 2, -1, -1):
         for j in range(len(nums[i])):
-            rec[i][j] = max(rec[i + 1][j], rec[i + 1][j + 1]) + nums[i][j]
-    return rec[0][0]
+            result[i][j] = max(result[i + 1][j], result[i + 1][j + 1]) + nums[i][j]
+    return result[0][0]
 
 
 if __name__ == '__main__':
