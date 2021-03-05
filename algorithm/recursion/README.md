@@ -15,12 +15,12 @@
 	迭代可以无止境。与前一个调用之间没有运算操作。平级向下执行(循环的实现)
 
 ### 简单实例
-#####阶乘
+	阶乘
 	function factorial(n) {
-		if (n==1) {
+		if (n == 1) {
 			return 1;
 		}
-		return n*factorial(n-1)
+		return n * factorial(n-1)
 	}
 
 ###  相关问题
