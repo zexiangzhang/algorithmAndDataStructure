@@ -19,14 +19,21 @@
 	设计动态规划算法的时候，最核心的就是如何设计状态，使得状态的可能性尽量少，却又同时满足最优原理
 	例如: 
 	    如果状态被设置为所有到达该状态步骤组成，显然符合最优原理，但这就和原来的问题一样了，并没有让问题更简单
-	    
     动态规划方法安排求解顺序，对每个子问题只求解一次，并将结果保存下来
     如果随后再次需要此子问题的解，只需查找保存的结果，而不必重新计算
     因此动态规划算法是付出额外的内存空间来节省计算时间
 
-## 解决的问题
-	具有最优子结构和重叠子问题
-	最优解中包含的各个解也是最优的
+###  相关问题
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[数组中的动态规划](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_array/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[子数组、子序列中的动态规划](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_sub_array_or_sub_sequence/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[背包问题](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/knapsack_problem/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[矩阵中的动态规划](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_matrix/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[动态规划与字符串匹配](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_string/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[状态压缩的动态规划](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_state_compression/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[区间中的动态规划](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_section/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[树形dp](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_tree/)<br/></font>
+<font size = 3>&nbsp;&nbsp;&nbsp;&nbsp;[数位dp](https://github.com/zexiangzhang/algorithmAndDataStructure/tree/master/algorithm/dynamic_programming/dp_in_number_index/)<br/></font>
+
 
 ## 与递归的区别
     动态规划是自底向上,一般都脱离了递归，由循环迭代完成计算
